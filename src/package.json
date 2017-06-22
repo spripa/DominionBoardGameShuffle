@@ -1,0 +1,29 @@
+{
+  "name": "DominionBoardGameShuffle",
+  "version": "1.0.0",
+  "description": "Dominion Board Game shuffle skill for Alexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spripa/DominionBoardGameShuffle.git"
+  },
+  "keywords": [
+    "Alexa",
+    "Board Game",
+    "Dominion",
+    "skill"
+  ],
+  "author": "Stela Pripa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/spripa/DominionBoardGameShuffle/issues"
+  },
+  "homepage": "https://github.com/spripa/DominionBoardGameShuffle#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "ssml-builder": "^0.2.3"
+  }
+}

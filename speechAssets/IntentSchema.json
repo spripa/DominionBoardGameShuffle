@@ -1,0 +1,215 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": [
+        "AMAZON.HelpIntent how to play Dominion",
+        "AMAZON.HelpIntent how to play",
+        "AMAZON.HelpIntent please tell me how to play Dominion",
+        "AMAZON.HelpIntent plese tell me how to play"
+      ]
+    },
+    {
+      "name": "AMAZON.RepeatIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "DominionCardHelp",
+      "samples": [
+        "DominionCardHelp tell me more about {Dominion_Card} ",
+        "DominionCardHelp what is {Dominion_Card} "
+      ],
+      "slots": [
+        {
+          "name": "Dominion_Card",
+          "type": "List_of_Dominion_Cards",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "DominionShuffle",
+      "samples": [
+        "DominionShuffle shuffle a new game",
+        "DominionShuffle shuffle a new game for {Dominion_Games}"
+      ],
+      "slots": [
+        {
+          "name": "Dominion_Games",
+          "type": "List_of_GameVersions",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "List_of_Dominion_Cards",
+      "values": [
+        {
+          "name": {
+            "value": "Cellar"
+          }
+        },
+        {
+          "name": {
+            "value": "Chapel"
+          }
+        },
+        {
+          "name": {
+            "value": "Moat"
+          }
+        },
+        {
+          "name": {
+            "value": "Chancellor"
+          }
+        },
+        {
+          "name": {
+            "value": "Village"
+          }
+        },
+        {
+          "name": {
+            "value": "Woodcutter"
+          }
+        },
+        {
+          "name": {
+            "value": "Workshop"
+          }
+        },
+        {
+          "name": {
+            "value": "Bureaucrat"
+          }
+        },
+        {
+          "name": {
+            "value": "Feast"
+          }
+        },
+        {
+          "name": {
+            "value": "Gardens"
+          }
+        },
+        {
+          "name": {
+            "value": "Militia"
+          }
+        },
+        {
+          "name": {
+            "value": "Moneylender"
+          }
+        },
+        {
+          "name": {
+            "value": "Remodel"
+          }
+        },
+        {
+          "name": {
+            "value": "Smithy"
+          }
+        },
+        {
+          "name": {
+            "value": "Spy"
+          }
+        },
+        {
+          "name": {
+            "value": "Thief"
+          }
+        },
+        {
+          "name": {
+            "value": "Throne Room"
+          }
+        },
+        {
+          "name": {
+            "value": "Council Room"
+          }
+        },
+        {
+          "name": {
+            "value": "Festival"
+          }
+        },
+        {
+          "name": {
+            "value": "Laboratory"
+          }
+        },
+        {
+          "name": {
+            "value": "Library"
+          }
+        },
+        {
+          "name": {
+            "value": "Market"
+          }
+        },
+        {
+          "name": {
+            "value": "Mine"
+          }
+        },
+        {
+          "name": {
+            "value": "Witch"
+          }
+        },
+        {
+          "name": {
+            "value": "Adventurer"
+          }
+        }
+      ]
+    },
+    {
+      "name": "List_of_GameVersions",
+      "values": [
+        {
+          "name": {
+            "value": "Base Set 1st Edition"
+          }
+        },
+        {
+          "name": {
+            "value": "Base Set 2nd Edition"
+          }
+        },
+        {
+          "name": {
+            "value": "Intrigue"
+          }
+        },
+        {
+          "name": {
+            "value": "Seaside"
+          }
+        },
+        {
+          "name": {
+            "value": "Base Set"
+          }
+        }
+      ]
+    }
+  ]
+}
