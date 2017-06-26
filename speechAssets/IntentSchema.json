@@ -7,25 +7,33 @@
     {
       "name": "AMAZON.HelpIntent",
       "samples": [
-        "AMAZON.HelpIntent how to play Dominion",
-        "AMAZON.HelpIntent how to play",
-        "AMAZON.HelpIntent please tell me how to play Dominion",
-        "AMAZON.HelpIntent plese tell me how to play"
+        "How to play Dominion",
+        "How to play",
+        "Please tell me how to play Dominion",
+        "Please tell me how to play"
       ]
     },
     {
       "name": "AMAZON.RepeatIntent",
-      "samples": []
+      "samples": [
+        "Say that again",
+        "Please repeat that",
+        "What is the board again"
+      ]
     },
     {
       "name": "AMAZON.StopIntent",
-      "samples": []
+      "samples": [
+        "Thank You",
+        "Ok Thank You"
+      ]
     },
     {
       "name": "DominionCardHelp",
       "samples": [
-        "DominionCardHelp tell me more about {Dominion_Card} ",
-        "DominionCardHelp what is {Dominion_Card} "
+        "Tell me more about {Dominion_Card} ",
+        "What is {Dominion_Card} ",
+        "Tell me more about the {Dominion_Card} card"
       ],
       "slots": [
         {
@@ -38,8 +46,10 @@
     {
       "name": "DominionShuffle",
       "samples": [
-        "DominionShuffle shuffle a new game",
-        "DominionShuffle shuffle a new game for {Dominion_Games}"
+        "Shuffle a new game",
+        "Shuffle a new game for {Dominion_Games}",
+        "Please shuffle a new game",
+        "Please shuffle a new game for {Dominion_Games}"
       ],
       "slots": [
         {
@@ -55,128 +65,178 @@
       "name": "List_of_Dominion_Cards",
       "values": [
         {
+          "id": null,
           "name": {
-            "value": "Cellar"
+            "value": "Cellar",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Chapel"
+            "value": "Chapel",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Moat"
+            "value": "Moat",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Chancellor"
+            "value": "Chancellor",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Village"
+            "value": "Village",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Woodcutter"
+            "value": "Woodcutter",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Workshop"
+            "value": "Workshop",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Bureaucrat"
+            "value": "Bureaucrat",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Feast"
+            "value": "Feast",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Gardens"
+            "value": "Gardens",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Militia"
+            "value": "Militia",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Moneylender"
+            "value": "Moneylender",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Remodel"
+            "value": "Remodel",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Smithy"
+            "value": "Smithy",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Spy"
+            "value": "Spy",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Thief"
+            "value": "Thief",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Throne Room"
+            "value": "Throne Room",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Council Room"
+            "value": "Council Room",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Festival"
+            "value": "Festival",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Laboratory"
+            "value": "Laboratory",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Library"
+            "value": "Library",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Market"
+            "value": "Market",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Mine"
+            "value": "Mine",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Witch"
+            "value": "Witch",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Adventurer"
+            "value": "Adventurer",
+            "synonyms": []
           }
         }
       ]
@@ -185,28 +245,38 @@
       "name": "List_of_GameVersions",
       "values": [
         {
+          "id": null,
           "name": {
-            "value": "Base Set 1st Edition"
+            "value": "Base Set 1st Edition",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Base Set 2nd Edition"
+            "value": "Base Set 2nd Edition",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Intrigue"
+            "value": "Intrigue",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Seaside"
+            "value": "Seaside",
+            "synonyms": []
           }
         },
         {
+          "id": null,
           "name": {
-            "value": "Base Set"
+            "value": "Base Set",
+            "synonyms": []
           }
         }
       ]

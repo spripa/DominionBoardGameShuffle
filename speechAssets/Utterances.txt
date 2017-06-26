@@ -1,4 +1,3 @@
-DominionCardHelp what is {Dominion_Card} 
-DominionCardHelp tell me more about {Dominion_Card} 
-DominionShuffle shuffle a new game for {Dominion_Games}
-DominionShuffle shuffle a new game
+Alexa, open Dominion Shuffle
+Please shuffle a new game
+Tell me about the Cellar card
