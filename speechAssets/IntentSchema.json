@@ -25,7 +25,8 @@
       "name": "AMAZON.StopIntent",
       "samples": [
         "Thank You",
-        "Ok Thank You"
+        "Ok Thank You",
+        "No Thank You"
       ]
     },
     {
@@ -33,7 +34,9 @@
       "samples": [
         "Tell me more about {Dominion_Card} ",
         "What is {Dominion_Card} ",
-        "Tell me more about the {Dominion_Card} card"
+        "Tell me more about the {Dominion_Card} card",
+        "Tell me about the {Dominion_Card} card",
+        "Tell me about {Dominion_Card}"
       ],
       "slots": [
         {

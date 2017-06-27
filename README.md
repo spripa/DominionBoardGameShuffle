@@ -2,7 +2,7 @@
 
 ## Intro
 When Alexa appeared in our living room i started thinking what can i do augment some of our household activities. As a keen boardgamer we have a few mobile apps to help us while playing like a Dominion Shuffler, counting scores for 7 Wonders and others.
-The dominiond shuffler appeared an easy entry choice into _teaching_ alexa to shuffle the board for us. And this is in short what led to this public git project. 
+The Dominion shuffler appeared an easy entry choice into _teaching_ alexa to shuffle the board for us. And this is in short what led to this public git project. 
 
 The boardgame dominion has a few versions and different cards to play, but this particular implementation covers 4 sets (Base, Base2, Seaside and Intrigue) with a fixed 10 cards shuffle (feature to be added i guess in a new version). The list of cards & descriptions where taken from [Dominion Cards Listing](http://dominion.diehrstraits.com/ "Dominion Cards List")
 
@@ -14,7 +14,7 @@ The Amazon developer portal with Alexa SDK is quite explanatory, a few forms to 
 
 The next step was to get my libraries and npm compiler for node.js working. Reasonably easy steps to follow. And once done this cmd command does the trick <..\GitHub\DominionBoardGameShuffle\src>npm install --save alexa-sdk>. The *.zip the src contents and use that for your lambda functiona build.
 
-When i ended in AWS to get my Lambda function going was looking for Alexa Skils Kit in my triggers list but couldn't find it! Do make sure you are in the right region. Only Ireland in the EU regions has got Alexa. 
+When i ended in AWS to get my Lambda function going was looking for Alexa Skils Kit in my triggers list but couldn't find it! Do make sure you are in the right region. Only Ireland in the EU regions has got Alexa [AWS Lambda Ireland](https://eu-west-1.console.aws.amazon.com/lambda/). 
 
 Then, once the Blank functions is created, upload your *.zip and then you're ready to Test. One tip here in case you don't use and IDE for compiling js code - check http://esprima.org/demo/validate.html as this helped me fix some missing commas issues.
 
