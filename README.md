@@ -27,7 +27,7 @@ After the smoke test using Amazon developer interface passed i moved to Test the
 ## Alexa Skill - Submission and Going Live
 After the submission of the skill, Amazon came back in a couple of days with feedback. Looking through the [Submission Checklist](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-submission-checklist) beforehand is useful, but i still got caught on a couple of issues specifically on leaving the session open and missing an error handling issue that resulted in _"There was a problem with the requested skill's response"_. Fixing the session open issue was a lot to do with semantics of the speech output in the :ask emit section, as long as semantically the conversation is not left hanging and user is asked for further input it passes the checklist criteria.
 
-As of 29.06.2017 my skill is live and can be activated on your [Alexa Device](https://www.amazon.co.uk/b?node=10068517031)
+As of 29.06.2017 my skill *"Dominion Board Game Shuffle"* is live and can be activated on your [Alexa Device](https://www.amazon.co.uk/b?node=10068517031)
 
 
 
